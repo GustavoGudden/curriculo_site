@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #0a65c1;
+  height: 200px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+header > .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 1rem;
+}
+.nav-icons > img {
+  width: 50px;
+  height: 50px;
+}
+
+body {
+  background-color: #e7e7e7;
+}
+
+main > section {
+  display: flex;
+  justify-content: center;
+}
+
+section > .container {
+  position: absolute;
+  top: 150px;
+  width: 70%;
+  height: 50%;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  column-gap: 0px;
+}
+.imagem > img {
+  width: 100%;
+  height: 100%;
+}
+
+.conteudo_cont {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+.infos {
+  border-top: 1px solid #e7e7e7;
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  height: 100%;
+}
+
+.infos > .row {
+  align-items: baseline;
+}
+
+.row-icons {
+  display: flex;
+  background-color: #0a65c1;
+  gap: 1rem;
+  height: 100px;
+
+  justify-content: center;
+  align-items: center;
+}
+.row-icons > img {
+  width: 40px;
+  height: 40px;
+}
+
+.texto-quebra {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 2rem;
+}
+
+.texto-quebra > h2 {
+  color: #848282;
+  font-weight: 300;
+}
+
+.infos > .row > h1 {
+  font-weight: 500;
+}
+
+.infos > .row > p {
+  font-weight: 300;
+  padding-left: 5px;
+  color: #848282;
+}
+.espaço {
+  justify-content: center;
+  margin-top: 500px;
+  font-family: "Poppins", sans-serif;
+  color: #0a65c1;
+}
+
+.container-skills {
+  width: 70%;
+  height: 400px;
+  background-color: white;
+  border-radius: 7px;
+  margin-top: 25px;
+  margin-bottom: 100px;
+  grid-template-columns: 50% 50%;
+  display: grid;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.skills > .row {
+  gap: 1rem;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
